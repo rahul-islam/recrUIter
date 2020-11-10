@@ -54,7 +54,7 @@ img{
     cursor: pointer;
 }
 
-.box input[type="submit"]:hover{
+.box input[type="submit"]:hover {
     background: rgb(15, 116, 74) ;
     transition: 0.3s all ease;
 
