@@ -18,8 +18,8 @@ router.get('/signup', (req, res) => {
     res.sendFile(path.resolve('static/justin/signup.html'));
 });
 
-router.get('/test', (req, res) => {
-	res.sendFile(path.resolve('static/justin/test.html'));
+router.get('/Question1', (req, res) => {
+	res.sendFile(path.resolve('static/justin/Question1.html'));
 });
 
 module.exports = router;
