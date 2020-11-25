@@ -54,6 +54,7 @@ input {
 
 
 .option input[type="submit"]:hover {
+    height: 40px;
     cursor: pointer;
 }
 
