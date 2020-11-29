@@ -22,4 +22,8 @@ router.get('/Question1', (req, res) => {
 	res.sendFile(path.resolve('static/justin/Question1.html'));
 });
 
+router.get('/Question2', (req, res) => {
+	res.sendFile(path.resolve('static/justin/Question2.html'));
+});
+
 module.exports = router;
